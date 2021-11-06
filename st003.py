@@ -1,0 +1,34 @@
+print("above")
+print("and")
+print("behind")
+
+
+x = 11
+if x < 10:
+    print("x is less than 10. ")
+else:
+    print("x is greater than or equal to 10")
+
+x = 2
+if x <= 10:
+    print("x is less than or equal to 10.")
+elif x <= 25:
+    print("x is greater than 10, but less than or equal to 25.")
+else:
+    print("x is greater than 25.")
+
+
+print(13 // 5)
+print(13 / 5)
+print(13 % 5)
+
+age = 64
+retirement = age - 65
+
+if retirement < 10:
+    print("You get to retire soon.")
+else:
+    print("You have a long time until you can retire !")
+
+
+
